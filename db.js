@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/test', { useUnifiedTopology: true, useNewUrlParser: true });
+mongoose.connect('mongodb://localhost:27017/wikiDB', { useUnifiedTopology: true, useNewUrlParser: true });
 
 const articleSchema = new mongoose.Schema({
     title: String,
